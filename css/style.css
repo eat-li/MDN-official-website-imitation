@@ -1,0 +1,504 @@
+/* 顶部导航区开始 */
+.container {
+  width: 1300px;
+  margin: 0 auto;
+}
+
+.toper {
+  background-color: #1b1b1b;
+  border-bottom: 1px solid gray;
+  border-top: 1px solid gray;
+  position: sticky;
+  z-index: 2;
+  top: 0;
+  left: 0;
+}
+
+.toper .toper-top {
+  height: 65px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  left: 0;
+}
+
+.toper .toper-top>div:nth-child(2) {
+  margin-right: 140px;
+}
+
+.toper .toper-logo {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.toper-nav .toper-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.toper-nav .toper-list>li {
+  border-radius: 5px;
+}
+
+.toper-nav .toper-list>li a {
+  padding-left: 20px;
+  height: 60px;
+  line-height: 60px;
+  display: inline-block;
+  padding-right: 20px;
+}
+
+.toper-nav .toper-list>li:hover {
+  background-color: #4c5e7f;
+}
+
+.toper-nav .toper-list>li:hover a {
+  color: #8cb4ff;
+
+}
+
+.toper-search>ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.toper-search>ul>li {
+  margin-right: 8px;
+  margin-left: 8px;
+}
+
+.toper-search>ul>li:first-child {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.toper-search>ul>li:first-child img {
+  width: 20px;
+}
+
+.toper-search li input {
+  width: 70px;
+  height: 30px;
+  border-radius: 10px;
+  background-color: transparent;
+  border: 1px solid gray;
+}
+
+.toper-search>ul>li:nth-child(2) {
+  position: relative;
+}
+
+.toper-search>ul>li:nth-child(2)>img {
+  position: absolute;
+  top: 5px;
+  left: 44px;
+  width: 20px;
+}
+
+.toper-search>ul>li:last-child {
+  height: 35px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  width: 140px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.toper-search>ul>li:last-child a {
+  color: black;
+}
+
+/* 二级菜单开始 */
+.toper-nav .toper-list>li {
+  position: relative;
+
+}
+
+.toper-nav .toper-list>li .second {
+  position: absolute;
+  width: 320px;
+  top: 60px;
+  left: 0;
+  background-color: #1b1b1b;
+  border-radius: 5px;
+  color: #fff;
+  display: none;
+  cursor: pointer;
+}
+
+.toper-nav .toper-list>li .second>li {
+  height: 40px;
+  border-left: 5px solid red;
+  margin-bottom: 25px;
+  margin-left: 15px;
+  padding-left: 10px;
+  margin-right: 10px;
+  float: left;
+}
+
+.toper-nav .toper-list>li .second>li>p:nth-child(1) {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.toper-nav .toper-list>li .second>li>p:nth-child(2) {
+  font-weight: 100;
+  font-size: 14px;
+  padding-top: 5px;
+}
+
+
+.toper-nav .toper-list>li .second>li:first-child {
+  padding-top: 20px;
+}
+
+.toper-nav .toper-list>li a:hover+.second {
+  display: block;
+
+}
+
+.toper-nav .toper-list>li:hover .second {
+  display: block;
+}
+
+.toper-nav .toper-list>li:hover .second li {
+  display: block;
+}
+
+.toper-nav .toper-list>li .second li:hover {
+  background-color: #313131;
+  border-radius: 4px;
+}
+
+/* 顶部导航区结束 */
+/*2-大搜索区域开始  */
+.mainer {
+  background-color: #040404;
+  text-align: left;
+  padding-top: 25px;
+}
+
+.mainer-content {
+  margin: 0 auto;
+  width: 1000px;
+  overflow: hidden;
+}
+
+.mainer-content .mainer-topic {
+  font-size: 25px;
+}
+
+.mainer-content .mainer-cation p {
+  margin-top: 40px;
+}
+
+.mainer-serch {
+  /* display: flex; */
+  /* justify-content: center; */
+  position: relative;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.mainer-serch input {
+  width: 650px;
+  height: 70px;
+  margin-top: 70px;
+  border-radius: 30px;
+  border-start-end-radius: 1px solid gray;
+  background-color: #030303;
+  color: #fff;
+  font-size: 20px;
+  font-weight: normal;
+  padding-left: 20px;
+  /* position: relative; */
+}
+
+.mainer-serch img {
+  width: 20px;
+  position: absolute;
+  top: 97px;
+  right: 220px;
+  cursor: pointer;
+}
+
+/* .mainer-serch img:hover {
+  background-color: #8cb4ff;
+} */
+
+/*2-大搜索区域结束  */
+
+/* 3-分块区域开始 */
+.Regional {
+  background-color: #1b1b1b;
+}
+
+.Regional-container {
+  width: 1000px;
+  margin: 0 auto;
+  text-align: left;
+  font-size: 20px
+}
+
+.Regional-topic h1 {
+  padding-top: 20px;
+  margin-bottom: 20px;
+}
+
+.Regional-text {
+  columns: 2
+}
+
+.Regional-text>div {
+  width: 500px;
+  height: 250px;
+  /* background-color: pink; */
+  border: 1px solid #858585;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+
+}
+
+.Regional-text>div ul li {
+  margin-bottom: 20px;
+  margin-top: 10px;
+  padding-left: 18px;
+}
+
+.Regional-text>div ul li a {
+  color: #fff;
+  font-size: larger;
+}
+
+.Regional-text>div ul li a:hover {
+  text-decoration: underline;
+}
+
+.Regional .text>ul {
+  margin: 0 auto;
+
+}
+
+.Regional .text>ul>li {
+  width: 1000px;
+  height: 60px;
+  /* background-color: pink; */
+  padding-top: 10px;
+  border-radius: 5px;
+  position: relative;
+}
+
+.Regional .text>ul>li:nth-child(odd) {
+  background-color: #313131;
+}
+
+.Regional .text>ul>li p {
+  font-size: 16px;
+}
+
+.Regional .text a {
+  color: #fff;
+}
+
+.Regional .text>ul>li span {
+  font-size: 12px;
+}
+
+.Regional .text>ul>li p:hover,
+.Regional .text>ul>li span:hover:first-of-type {
+  text-decoration: underline;
+}
+
+.Regional .text>ul>li span:nth-of-type(2) {
+  position: absolute;
+  top: 40%;
+  right: 20px;
+}
+
+/* 3-分块区域结束 */
+
+/* 4-更多区域开始 */
+.more {
+  background-color: #040404;
+}
+
+.more .more-container {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.more .more-container>ul {
+  position: relative;
+  overflow: hidden;
+}
+
+.more .more-container>ul>li:first-of-type {
+  margin-top: 60px;
+  font-size: 20px;
+  font-weight: 100;
+}
+
+.more .more-container>ul>img:first-of-type {
+  position: absolute;
+  width: 235px;
+  top: 110px;
+  right: 249px;
+}
+
+.more .more-container>ul>li:nth-of-type(2) {
+  background-color: #fff;
+  width: 170px;
+  height: 15px;
+  border-radius: 5px;
+  text-align: center;
+  line-height: 15px;
+}
+
+.more .more-container>ul>li:nth-of-type(2) a {
+  color: #000000;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.more .more-container>ul>img:nth-of-type(2) {
+  position: absolute;
+  top: 145px;
+  left: -5px;
+  width: 25px;
+}
+
+.more .more-container>ul li {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.more .more-container ul li:nth-of-type(3) {
+  padding-left: 20px;
+}
+
+.more .more-container ul li:nth-of-type(3) span {
+  font-style: italic;
+  line-height: 25px;
+  color: #cdcdcd;
+}
+
+
+.more .more-container>ul>li:nth-of-type(4) a {
+  color: #277cf7;
+}
+
+/* 4-更多区域结束 */
+
+/* 5-链接区域开始 */
+.link {
+  background-color: #313131;
+  overflow: hidden;
+  border-bottom: 1px solid gray;
+}
+
+.link .link-container {
+  margin: 0 auto;
+  width: 1300px;
+  /* background-color: pink; */
+}
+
+.link .third-link {
+  padding-left: 20px;
+  margin-top: 10px;
+  /* background-color: pink; */
+}
+
+.link .third-link p {
+  font-size: 25px;
+  font-weight: bold;
+  line-height: 40px;
+}
+
+
+.link .third-link>ul {
+  display: flex;
+  margin-top: 25px;
+  justify-content: flex-start;
+}
+
+.link .third-link>ul li>img {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+.link .link-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.link .link-container>ul li {
+  margin-top: 15px;
+
+}
+
+.link .link-container>ul li:first-of-type {
+  margin-top: 34px;
+}
+
+/* 5-链接区域结束 */
+/* 6-版权区域开始 */
+.bottom-link {
+  background-color: #313131;
+}
+
+.btn-container {
+  margin: 0 auto;
+  width: 1300px;
+}
+
+.btn-container .link-fisrt>ul {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.btn-container .link-fisrt>ul>li>a {
+  color: #cdcdc3;
+  text-decoration: underline;
+  margin-left: 20px;
+  font-size: 12px;
+  flex: 0 0 auto;
+
+}
+
+.btn-container .link-fisrt>ul>li>img {
+  width: 120px;
+  margin-top: 10px;
+}
+
+.btn-container .link-fisrt>ul>li>a:first-of-type {
+  margin-left: 30px;
+  flex: 0 0 auto;
+
+}
+
+.btn-container .copyright span {
+  font-size: 12px;
+  color: #cdcdc3;
+
+}
+
+.btn-container .copyright span a {
+  text-decoration: underline;
+  color: #cdcdc3;
+
+}
+
+
+
+/* 6-版权区域结束 */

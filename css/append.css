@@ -1,0 +1,63 @@
+/* 主题切换样式 */
+.toper-search ul li:first-of-type button {
+  width: 88px;
+  height: 35px;
+  /* text-align: center; */
+  line-height: 35px;
+  background-color: transparent;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.toper-search ul li:first-of-type {
+  position: relative;
+
+}
+
+
+
+.toper-search>ul>li:first-of-type>button img {
+  position: absolute;
+  top: 6px;
+  left: 2px;
+}
+
+.toper-search>ul>li:first-of-type>button:hover {
+  background-color: rgba(133, 133, 133, 0.5);
+}
+
+.toper-search>ul>li:first-of-type ul {
+  position: absolute;
+  top: 34px;
+  left: 0;
+  border: 2px solid gray;
+  border-radius: 5px;
+  background-color: #313131;
+  display: flex;
+  flex-wrap: wrap;
+  width: 120px;
+  align-items: flex-start;
+  justify-content: center;
+  opacity: 0;
+}
+
+.toper-search>ul>li:first-of-type>ul>li {
+  margin-top: 2px;
+  position: relative;
+  border-radius: 5px;
+  padding-left: 20px;
+}
+
+.toper-search>ul>li:first-of-type>ul>li:hover {
+  background-color: rgba(133, 133, 133, 0.5);
+
+}
+
+
+.toper-search>ul>li:first-of-type ul>li img {
+  position: absolute;
+  top: 6px;
+  left: 8px;
+}
