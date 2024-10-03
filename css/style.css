@@ -134,12 +134,13 @@
 
 .toper-nav .toper-list>li .second>li {
   height: 40px;
-  border-left: 5px solid red;
   margin-bottom: 25px;
   margin-left: 15px;
   padding-left: 10px;
   margin-right: 10px;
   float: left;
+  border-left: 5px solid #fff;
+
 }
 
 .toper-nav .toper-list>li .second>li>p:nth-child(1) {
@@ -154,9 +155,8 @@
 }
 
 
-.toper-nav .toper-list>li .second>li:first-child {
-  padding-top: 20px;
-}
+/* .toper-nav .toper-list>li .second>li:first-child {
+} */
 
 .toper-nav .toper-list>li a:hover+.second {
   display: block;
@@ -327,11 +327,14 @@
 /* 4-更多区域开始 */
 .more {
   background-color: #040404;
+  overflow: hidden;
 }
 
 .more .more-container {
   width: 1000px;
   margin: 0 auto;
+  margin-bottom: 100px;
+
 }
 
 .more .more-container>ul {
@@ -448,6 +451,10 @@
 
 .link .link-container>ul li:first-of-type {
   margin-top: 34px;
+}
+
+.link .link-container>ul li a {
+  color: #cdcdc9;
 }
 
 /* 5-链接区域结束 */

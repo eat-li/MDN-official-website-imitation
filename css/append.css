@@ -61,3 +61,26 @@
   top: 6px;
   left: 8px;
 }
+
+/* 二级菜单边框的的颜色 */
+.toper-nav .toper-list>li .second>li:first-child {
+  border-left: 5px solid #bb5761;
+}
+
+.toper-nav .toper-list>li .second>li:nth-child(2) {
+  border-left: 5px solid #8cb4ff;
+
+}
+
+.toper-nav .toper-list>li .second>li:nth-child(3) {
+  border-left: 5px solid #afa100;
+}
+
+.toper-nav .toper-list>li .second>li:nth-child(4) {
+  border-left: 5px solid #088844;
+
+}
+
+.toper-nav .toper-list>li .second>li:nth-child(5) {
+  border-left: 5px solid #ae8aff;
+}
